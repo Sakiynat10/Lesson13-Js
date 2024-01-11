@@ -1,4 +1,91 @@
 
+// String
+
+// 1.
+
+// let str = "    Xoliyorov Asilbek Developer     ";
+
+// String.prototype.trm = function () {
+//   let res = "";
+//   for (let i = 0; i < this.length; i++) {
+//     if (
+//       (this[i] === " " && this[i - 1] !== " " && this[i + 1] !== " ") ||
+//       this[i] !== " "
+//     ) {
+//       res += this[i];
+//     }
+//   }
+//   return res;
+// };
+
+// console.log(str.trm());
+
+// 2.
+
+// let str = "Xoliyorov Asilbek Developer";
+
+// String.prototype.upperCase = function () {
+//   let res = "";
+//   for (let el of this) {
+//     if (el.charCodeAt() >= 97 && el.charCodeAt() <= 122) {
+//       res += String.fromCharCode(el.charCodeAt() - 32);
+//     } else {
+//       res += el;
+//     }
+//   }
+//   return res;
+// };
+
+// console.log(str.upperCase());
+
+// 3.
+
+// let str = "Xoliyorov Asilbek Developer";
+
+// String.prototype.has = function (letter) {
+//   let res = false;
+//   for (let i = 0; i < this.length; i++) {
+//     let temp = "";
+//     for (let j = 0; j < letter.length; j++) {
+//       temp += this[i + j];
+//     }
+//     if (letter === temp) {
+//       res = true;
+//       break;
+//     }
+//   }
+//   return res;
+// };
+
+// console.log(str.has("ziz"));
+
+// 4.
+
+// let str = "Xoliyorov Asilbek Developer";
+
+// String.prototype.cut = function (start, stop) {
+//   let res = "";
+//   for (let i = start; i < stop; i++) {
+//     res += this[i];
+//   }
+//   return res;
+// };
+
+// console.log(str.cut(2, 5));
+
+// 5.
+
+// let str = "Xoliyorov Asilbek Developer";
+
+// String.prototype.rpt = function (num) {
+//   let res = "";
+//   for (let i = 0; i < num; i++) {
+//     res += this;
+//   }
+//   return res;
+// };
+
+// console.log(str.rpt(5));
 
 // animal1 
 // function Animal(name, speed, limitAge, prototype) {
